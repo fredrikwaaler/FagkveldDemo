@@ -5,9 +5,14 @@ def read_data_from_json(file_path):
         data = json.load(file)
     return data
 
+def print_persons():
+    data = read_data_from_json('data.json')
+    print("Name:", data['name'])
+    print("Age:", data['age'])
+
 def main():
-    # TODO: Someone implement this please
-    return
+    print_persons()
+
 
 if __name__ == "__main__":
     main()
