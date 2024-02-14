@@ -6,7 +6,7 @@ def read_data_from_json(file_path):
     return data
 
 def main():
-    # TODO: Someone implement this
+    # TODO: Someone implement this please
     return
 
 if __name__ == "__main__":
