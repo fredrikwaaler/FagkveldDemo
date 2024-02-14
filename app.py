@@ -6,7 +6,9 @@ def read_data_from_json(file_path):
     return data
 
 def main():
-    # TODO: Someone implement this
+    data = read_data_from_json('data.json')
+    print("Name:", data['name'])
+    print("Age:", data['age'])
     return
 
 if __name__ == "__main__":
