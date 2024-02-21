@@ -13,6 +13,9 @@ def print_persons():
 def main():
     print_persons()
 
+def hello_world():
+    print("Hello")
+
 
 if __name__ == "__main__":
     main()
