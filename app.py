@@ -5,11 +5,13 @@ def read_data_from_json(file_path):
         data = json.load(file)
     return data
 
-def main():
+def print_persons():
     data = read_data_from_json('data.json')
     print("Name:", data['name'])
     print("Age:", data['age'])
-    return
+
+def main():
+    print_persons()
 
 def hello_world():
     print("Hello")
